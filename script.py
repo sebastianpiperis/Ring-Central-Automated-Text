@@ -1,12 +1,12 @@
 import os, sys, time
 from ringcentral import SDK
 
-RECIPIENT    = "+19544043185"
+RECIPIENT    = "+"
 TEXT_MESSAGE = "..."
 SERVER_URL = "https://platform.devtest.ringcentral.com"
-CLIENT_ID = "83kBdTbHuj3b725OPcJAh8"
-CLIENT_SECRET = "VdaUotnMJpgbyVfcM8w7MV5K5LMdJmULud0QlzWigqKj"
-JWT_TOKEN = "eyJraWQiOiI4NzYyZjU5OGQwNTk0NGRiODZiZjVjYTk3ODA0NzYwOCIsInR5cCI6IkpXVCIsImFsZyI6IlJTMjU2In0.eyJhdWQiOiJodHRwczovL3BsYXRmb3JtLmRldnRlc3QucmluZ2NlbnRyYWwuY29tL3Jlc3RhcGkvb2F1dGgvdG9rZW4iLCJzdWIiOiI4MzIwMDUwMDUiLCJpc3MiOiJodHRwczovL3BsYXRmb3JtLmRldnRlc3QucmluZ2NlbnRyYWwuY29tIiwiZXhwIjozODQzOTQ2NDkxLCJpYXQiOjE2OTY0NjI4NDQsImp0aSI6IkxGOE1uZWVqU3gyNTVzQmtGMGtseUEifQ.E0bsjqODsBoPdUCBoivUOlrRhCm2-B3ug3AH0L8OFx1uFg47PeX4yn3QUud1rb_yIL7NqbAf5oYiYNyEZAX2rHtwvhxaitBRCA_aq-PstT7C4E7bhvC14Buxk6OLmDqRi2qj3PBkn_gRzo2RedmwxP65yyGsqE1yHfVrvjltSkKxCV5-2iANJRHhGY5H4-MtBEt73qwo6YL5oFSBCm_rAZN1VOtA2yAEVmuRhtIWbK5u0LZcbX9LafAapIzkWDnnj4cwFW5_6Wu2O0Yn6GKvnPyvL-us1VCNKZkTsWYbpl224frALW7HUakYAJFX5UqYbeeDjeVvY40RMDWnSNb2DA"
+CLIENT_ID = ""
+CLIENT_SECRET = ""
+JWT_TOKEN = ""
 
 # Read phone number(s) that belongs to the authenticated user and detect if a phone number
 # has the SMS capability
